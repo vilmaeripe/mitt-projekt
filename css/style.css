@@ -4,12 +4,24 @@ body {
  height: 100%;
 }
 
+/* Text */
 h2 {
   text-align: center;
   color: black;
   font-size: 40px;
   letter-spacing: 5px;
   font-family: 'Antonio', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(255, 224, 62);
+  letter-spacing: 5px;
+}
+
+h4 {
+  color: white;
+  text-align: center;
 }
 
 p {
@@ -25,22 +37,12 @@ footer {
   background-color: #333;
 }
 
-h3 {
-  text-align: center;
-  color: rgb(255, 224, 62);
-  letter-spacing: 5px;
-}
-
-h4 {
-  color: white;
-  text-align: center;
-}
-
+/* Bild med bildtext */
 figure {
-  margin: 50px;
+  margin: 40px;
 }
 
-figcaption {
+.bild {
   letter-spacing: 1px;
   margin-top: 10px;
   line-height: 25px;
@@ -63,7 +65,7 @@ figcaption {
 }
 
 .bild3 {
-  width: 45%;
+  width: 55%;
   margin: 50px;
   margin-top: 30px;
 }
@@ -77,14 +79,14 @@ figcaption {
   margin-left: 60px;
 }
 
-/* Container holding the image and the text */
+/* Container som håller bild med text */
 .startimage {
   position: relative;
   text-align: center;
   color: white;
 }
 
-/* Bottom left text */
+/* Nedre texten */
 .bottom-left {
   position: absolute;
   bottom: 8px;
@@ -95,6 +97,7 @@ figcaption {
   color: rgb(255, 224, 62);
 }
 
+/* Frejlogga */
 .image {
   width: 20%;
   float: right;
@@ -106,15 +109,7 @@ figcaption {
   transform: scale(1.15);
 }
 
-/*
-.mobile-container {
-  margin: auto;
-  background-color: rgb(116, 116, 116);
-  height: 500px;
-  color: white;
-}
-*/
-
+/* Navbar */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -127,7 +122,6 @@ figcaption {
 .topnav #myLinks {
   display: none;
 }
-
 
 .topnav a {
   color: rgb(176, 176, 176);
@@ -158,7 +152,6 @@ figcaption {
   color: white;
 }
 
-
 /* sticky bar */
 .sticky {
   position: fixed;
@@ -187,7 +180,7 @@ img {vertical-align: middle;}
    box-shadow: 10px 10px 5px rgb(56, 64, 73);
 }
 
-/* Next & previous buttons */
+/* Nästa & föregående pilar */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -203,7 +196,7 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Positionera the "nästa pilen" till höger */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -225,7 +218,7 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Nummer i hörnet (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -233,7 +226,6 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
 }
-
 
 /* Fading animation */
 .fade {
@@ -280,16 +272,19 @@ img {vertical-align: middle;}
     margin-left: 30px;
   }
 
-  figcaption {
+  .bild {
     letter-spacing: 1px;
     margin-top: 30px;
     line-height: 25px;
     font-size: 20px;
+    margin: 30px;
+    padding: 30px;
   }
 
   .bild2 {
     margin-top: 20px;
-    width: 48%;
+    width: 30%;
+    margin: 40px;
   }
 
   .bildtext2 {
