@@ -42,19 +42,21 @@ figure {
   margin: 40px;
 }
 
-.bild {
+.bildtext {
   letter-spacing: 1px;
   margin-top: 10px;
   line-height: 25px;
   font-size: 17px;
   margin-left: 40px;
   margin-right: 40px;
+  margin-bottom: 40px;
 }
 
 .bild2 {
   margin-right: 40px;
   margin-left: 40px;
   width: 50%;
+  margin-bottom: 0;
 }
 
 .bildtext2 {
@@ -62,6 +64,7 @@ figure {
   line-height: 25px;
   font-size: 17px;
   margin-right: 30px;
+  margin-bottom: 40px;
 }
 
 .bild3 {
@@ -72,11 +75,11 @@ figure {
 
 .bildtext3 {
   letter-spacing: 1px;
-  margin-top: 30px;
+  margin-top: 10px;
   line-height: 25px;
   font-size: 17px;
   margin-right: 40px;
-  margin-left: 60px;
+margin-bottom: 40px;
 }
 
 /* Container som håller bild med text */
@@ -251,7 +254,7 @@ img {vertical-align: middle;}
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   p {
     font-size: 25px;
     margin:40px;
@@ -272,7 +275,7 @@ img {vertical-align: middle;}
     margin-left: 30px;
   }
 
-  .bild {
+  .bildtext {
     letter-spacing: 1px;
     margin-top: 30px;
     line-height: 25px;
@@ -314,5 +317,15 @@ img {vertical-align: middle;}
     margin-left: 30px;
     margin-bottom: 40px;
     display: block;
+  }
+
+  .topnav a {
+    color: rgb(176, 176, 176);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
   }
 }
